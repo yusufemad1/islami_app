@@ -76,21 +76,37 @@ class _LayoutViewState extends State<LayoutView> {
       ),
     );
 
-    //   Stack(
-    //   children: [
-    //     Image.asset(
-    //       'assets/image/main_background.png',
-    //       height: mediaQuery.height,
-    //       width: mediaQuery.width,
-    //       fit: BoxFit.cover,
-    //     ),
-    //     Scaffold(
-    //       appBar: AppBar(
-    //         title: Text('اسلامي'),
-    //       ),
-    //
-    //     ),
-    //   ],
-    // );
+    Stack(
+      children: [
+        Image.asset(
+          'assets/image/main_background.png',
+          height: mediaQuery.height,
+          width: mediaQuery.width,
+          fit: BoxFit.cover,
+        ),
+        Scaffold(
+          appBar: AppBar(
+            title: Text('اسلامي'),
+          ),
+        ),
+      ],
+    );
   }
 }
+//
+// Stack(
+// children: [
+// Image.asset(
+// 'assets/image/main_background.png',
+// height: mediaQuery.height,
+// width: mediaQuery.width,
+// fit: BoxFit.cover,
+// ),
+// Scaffold(
+// appBar: AppBar(
+// title: Text('اسلامي'),
+// ),
+//
+// ),
+// ],
+// );
